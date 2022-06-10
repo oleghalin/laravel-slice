@@ -3,8 +3,8 @@
 namespace Khalin\LaravelSlice\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Khalin\LaravelSlice\LaravelSliceServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

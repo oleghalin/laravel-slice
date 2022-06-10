@@ -2,9 +2,9 @@
 
 namespace Khalin\LaravelSlice;
 
+use Khalin\LaravelSlice\Commands\LaravelSliceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Khalin\LaravelSlice\Commands\LaravelSliceCommand;
 
 class LaravelSliceServiceProvider extends PackageServiceProvider
 {
