@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "khalin/laravel-slice",
+    "description": "Beautiful interface for your API Clients",
     "keywords": [
-        ":vendor_name",
+        "khalin",
         "laravel",
-        ":package_slug"
+        "laravel-slice"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/khalin/laravel-slice",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Oleg Khalin",
+            "email": "oleghalinua@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Khalin\\LaravelSlice\\": "src",
+            "Khalin\\LaravelSlice\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Khalin\\LaravelSlice\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Khalin\\LaravelSlice\\LaravelSliceServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSlice": "Khalin\\LaravelSlice\\Facades\\LaravelSlice"
             }
         }
     },
