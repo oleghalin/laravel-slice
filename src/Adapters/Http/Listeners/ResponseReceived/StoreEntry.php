@@ -9,6 +9,5 @@ class StoreEntry implements ShouldQueue
 {
     public function handle(ResponseReceived $event)
     {
-
     }
 }
