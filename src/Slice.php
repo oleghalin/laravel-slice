@@ -2,6 +2,6 @@
 
 namespace Khalin\LaravelSlice;
 
-class LaravelSlice
+class Slice
 {
 }

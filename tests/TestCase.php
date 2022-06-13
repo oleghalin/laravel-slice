@@ -4,7 +4,7 @@ namespace Khalin\LaravelSlice\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Khalin\LaravelSlice\LaravelSliceServiceProvider;
+use Khalin\LaravelSlice\SliceServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -20,7 +20,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            LaravelSliceServiceProvider::class,
+            SliceServiceProvider::class,
         ];
     }
 
